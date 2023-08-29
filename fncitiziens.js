@@ -20,6 +20,12 @@ const executar = somar;
 //Exemplo 2 - Passando uma função para outra
 function subtrair(num1, num2) {
     return num1 = num2;
+    /*Teste Git
+    return num1 = num2;
+    return num1 = num2;
+    return num1 = num2;
+    return num1 = num2;
+    */
 }
 
 

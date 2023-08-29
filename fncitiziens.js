@@ -28,6 +28,7 @@ function subtrair(num1, num2) {
     */
 }
 
+//adicionando return master - teste git
 
 function faz_algo(num1, num2, teste) {
     return teste(num1, num2);

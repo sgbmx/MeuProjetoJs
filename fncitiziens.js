@@ -55,7 +55,7 @@ mensagem();
 
 
 
-let valores = [1, 2, 3, true, somar];
+let valores = [1, 2.3, true, somar];
 
 for (let i = 0; i < valores.length; i++){
     console.log(typeof(valores[i])); // typeof descobrir o tipo do valor

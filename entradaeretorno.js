@@ -44,4 +44,4 @@ console.log(somar(4,6)); //10
 
 console.log(somar(4)); //?? NaN
 
-console.log(somar(4,8,2,3)); //Soma os dois primeiros argumentos
+console.log(somar(4,8,2,3)); //12 Soma os dois primeiros argumentos

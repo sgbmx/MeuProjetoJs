@@ -1,4 +1,4 @@
-//Funções Closures
+//Funções Closures - o escopo que é criado quando uma função é declarada
 
 // let xuxa = 'global'; // pode ser acessada globalmente no nosso projeto
 

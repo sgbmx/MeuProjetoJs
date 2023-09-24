@@ -2,14 +2,14 @@
 
 
 function Pessoa(n, s, raca = 'Humano') {
-    //atributos privados só conseguimos fazer uso dentro da função contrutora
+    //atributos privados(let) só conseguimos fazer uso dentro da função contrutora
     let altura = 0.30;
     let peso = 0.5;
     let idade = 0;
     let nome = n;
     let sexo = s;
 
-    //atributos públicos pode ser acessado foram da função construtora
+    //atributos públicos(this) pode ser acessado foram da função construtora
     this.raca = raca;
 
     //Método privado só conseguimos fazer uso dentro da função construtora

@@ -6,7 +6,7 @@ function dobrar(valor) {
     return valor * 2;
 }
 
-
+//map cria um novo array com os valores transformados 
 let res1 = numeros.map(dobrar);
 
 console.log(numeros);

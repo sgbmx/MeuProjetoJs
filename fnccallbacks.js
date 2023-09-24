@@ -16,9 +16,9 @@ function apresentar(curso, indice) {
 }
 
 
-/*cursos.forEach(apresentar); //Aqui está ocorrendo o callback
+cursos.forEach(apresentar); //Aqui está ocorrendo o callback
 
-
+/*
 //Usando Lambda
 
 cursos.forEach(function (curso, indice){
@@ -26,7 +26,7 @@ cursos.forEach(function (curso, indice){
 });
 
 
-//Usando arrow
+Usando arrow
 cursos.forEach((curso, indice) => console.log(`${indice + 1} - ${curso}`));*/
 
 const precos = [23.75, 78.23, 899.43, 12.89, 5.23, 67.45]
@@ -60,8 +60,7 @@ console.log(menores);*/
 
 
 //Forma 2
-menores = precos.filter(preco => preco < 50);
+//menores = precos.filter(preco => preco < 50);
 
-console.log(menores);
-
+//console.log(menores);
 
